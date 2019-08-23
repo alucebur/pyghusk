@@ -1,0 +1,4 @@
+theme: jekyll-theme-slate
+title: Alucebur Was Here
+description: Command-line script to start a new Python GitHub project in VSCode
+show_downloads: ['true']
