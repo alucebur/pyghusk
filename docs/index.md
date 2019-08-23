@@ -1,8 +1,10 @@
 <h2 align='center'>pyghusk</h2>
 
-<center><img src="assets/pyghusk.png" width=200 />
-
-*Command-line script to start a new **Py**thon **G**it**H**ub project in **VSC**ode.*</center>
+<p align="center">
+    <img src="assets/pyghusk.png" width="200" />
+    <br />
+    <i>Command-line script to start a new <b>Py</b>thon <b>G</b>it<b>H</b>ub project in <b>VSC</b>ode.</i>
+</p>
 
 #### Table of contents:
 - [What does this script do?](#functionality)
@@ -53,13 +55,14 @@ Navigate until the recently created folder and install dependencies:
                [-d DESCRIPTION] [-l {`LICENSES`}]
 
 Options:
-`-h`, `--help`: show help message and exit.
-`-V`, `--version`: show program's version number and exit.
-`-v`, `--verbose`: set logging level to DEBUG.
-`-f FOLDER`, `--folder FOLDER`: local project folder (current directory by default).
-`-n NAME`, `--name NAME`: name for the remote repository.
-`-d DESCRIPTION`, `--description DESCRIPTION`: description for the remote repository.
-`-l {LICENSES}`, `--license {LICENSES}`: license to use for the project.
+
+        -h, --help: show help message and exit.
+        -V, --version: show program's version number and exit.
+        -v, --verbose: set logging level to DEBUG.
+        -f FOLDER, --folder FOLDER: local project folder.
+        -n NAME, --name NAME: name for the remote repo.
+        -d DESCRIPTION, --description DESCRIPTION: description for the remote repo.
+        -l {LICENSES}, --license {LICENSES}: license to use for the project.
 
 For executing the script, run it with `pipenv run` or `python3`.
 
