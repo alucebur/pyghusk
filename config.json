@@ -1,0 +1,15 @@
+{
+    "PYTHON_VERSION": "3.7",
+    "LINTER": "*** your favourite linter ***",
+    "USERNAME": null,
+    "README_CONTENT": {
+        "Description": "Work in progress.",
+        "Installation": "Work in progress.",
+        "Usage": "Work in progress."
+    },
+    "ENABLE_GH_PAGES": true,
+    "JEKILL_CONFIG": {
+        "theme": "*** your favourite jekyll theme ***",
+        "title": "*** your pages title ***"
+    }
+}
