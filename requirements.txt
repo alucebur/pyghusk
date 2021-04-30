@@ -1,9 +1,13 @@
--i https://pypi.org/simple
-certifi==2019.6.16
+-i https://pypi.org/simple/
+certifi==2020.12.5
+cffi==1.14.5
 chardet==3.0.4
+cryptography==3.4.7
 entrypoints==0.3
 idna==2.8
+jeepney==0.6.0
 keyring==19.1.0
-pywin32-ctypes==0.2.0 ; sys_platform == 'win32'
+pycparser==2.20
 requests==2.22.0
-urllib3==1.25.3
+secretstorage==3.3.1 ; sys_platform == 'linux'
+urllib3==1.25.8
